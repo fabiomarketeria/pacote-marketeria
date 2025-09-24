@@ -110,4 +110,61 @@
   </section>
 
   <!-- Pacote Especial -->
-  <section id="bundle" class="py-16 bg-b
+  <section id="bundle" class="py-16 bg-brand-50">
+    <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-2xl sm:text-3xl font-bold">Pacote Especial: Funil + Curso</h2>
+      <p class="mt-2 text-slate-700">Leve o Funil Automático + Curso de Vendas Consultivas + Bootcamp por um valor exclusivo.</p>
+      <p class="mt-4 text-3xl font-extrabold text-brand-700">12x de R$549,90 ou R$5.497 à vista</p>
+      <div class="mt-6 flex flex-col sm:flex-row gap-3 justify-center">
+        <a href="https://chk.eduzz.com/2380192" target="_blank" class="rounded-xl bg-brand-700 px-6 py-3 text-white font-semibold hover:bg-brand-800">Comprar Pacote Completo</a>
+      </div>
+      <p class="mt-4 text-xs text-slate-500">Oferta limitada • Pagamento 100% seguro via Eduzz</p>
+    </div>
+  </section>
+
+  <!-- Isca Magnética -->
+  <section id="isca" class="py-16">
+    <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-2xl sm:text-3xl font-bold">Download Gratuito</h2>
+      <p class="mt-2 text-slate-700">Baixe agora o checklist exclusivo <strong>“7 Erros que Travaram Seu Funil de Vendas”</strong> e descubra como corrigi-los imediatamente.</p>
+      <form action="https://formspree.io/f/your-form-id" method="POST" class="mt-6 grid gap-4 max-w-md mx-auto">
+        <input type="text" name="nome" placeholder="Seu nome" required class="rounded-xl border border-slate-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-brand-600" />
+        <input type="email" name="email" placeholder="Seu melhor e-mail" required class="rounded-xl border border-slate-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-brand-600" />
+        <button type="submit" class="rounded-xl bg-brand-700 px-6 py-3 text-white font-semibold hover:bg-brand-800">Quero meu checklist</button>
+        <p class="text-xs text-slate-500">Ao enviar você receberá o PDF + novidades sobre nossos treinamentos.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-10 border-t border-slate-200">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grid md:grid-cols-3 gap-6 text-sm">
+      <div>
+        <div class="flex items-center gap-2 font-semibold"><img src="marketeria.svg" alt="Marketeria" class="h-6" /> Marketeria</div>
+        <p class="mt-2 text-slate-600">Soluções completas em geração de demanda, automação e treinamento comercial.</p>
+      </div>
+      <div>
+        <h4 class="font-semibold">Contato</h4>
+        <ul class="mt-2 space-y-1 text-slate-600">
+          <li><a href="mailto:marketeria@marketeria.net.br">marketeria@marketeria.net.br</a></li>
+          <li><a href="https://wa.me/5551981349757">WhatsApp: +55 51 98134-9757</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold">Links</h4>
+        <ul class="mt-2 space-y-1 text-slate-600">
+          <li><a href="#funil" class="hover:text-brand-700">Funil Automático</a></li>
+          <li><a href="#curso" class="hover:text-brand-700">Curso de Vendas</a></li>
+          <li><a href="#bundle" class="hover:text-brand-700">Pacote Especial</a></li>
+          <li><a href="#isca" class="hover:text-brand-700">Download Gratuito</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="mt-8 text-center text-xs text-slate-500">© <span id="year"></span> Marketeria. Todos os direitos reservados.</div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
